@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+    
 }
 /* header styles */
 .nav-main-container{
@@ -11,11 +12,12 @@
     /* background-color: beige; */
     /* border: 2px solid red; */
     display: flex;
+    /* background-size: contain; */
 
 }
 .logo-name-container{
     /* border: 2px solid; */
-    min-height: 80px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     display: flex;
@@ -74,6 +76,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    filter: brightness(-55);
 }
 .back-img .h1{
     font-size: 45px;
@@ -88,6 +91,7 @@
 }
 .blur{
     margin-left: 20px;
+    
 }
 .back-img .blur{
 
@@ -98,29 +102,156 @@
     width: 600px;
     margin-top: 10px;
     background: rgba(255, 255, 255,.2);
+    border-radius: 4px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0,.2);
 }
-.blur input{
-    top: 50%;
-    left: 50%;
+/* .blur select{
+    border: 2px solid;
+    
+} */
+/* .blur .box{} */
+.box, button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-bottom: px;
 }
-.blur input, button{
+
+.blur select .box, button{
     /* width: 10%; */
     width: 70px;
     margin: 4px;
     text-align: left;
-    border: 2px solid #FFFFFF;
+    /* border: 2px solid #FFFFFF; */
     border-radius: 5px; 
     padding: 5px 70px 5px 5px;
     background-color: white;
     margin-top: 35px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    
 }
 button{
-    width: 60px
+    width: 97px
+    height: 00px
     font-size: 1px;
     padding: 5px 4px 5px 5px;
     color: #FFFFFF;
     background-color: #FF5400; 
+    border: none;
     
 }
 /* sec-1 end */
+
+/* sec-2 start */
+
+.sec2-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+.popular-container{
+    width: 50%;
+    padding: 15px;
+    /* padding-right: 75px; */
+    margin-right: 20px;
+    
+}
+.popular-container h2{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: rgba(19, 19, 24, 1);
+}
+.popular-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+    margin-left: 5px;
+}
+.popular-container ul li{
+    margin-left: 30px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+}
+.end{
+    /* border: 2px solid; */
+    color: rgba(90, 90, 93, 1);
+    margin-top: 20px;
+    font-size: 20px;
+}
+.popular-container button{
+    width: 150px;
+    padding: 10x;
+    text-align: center;
+}
+.sec2-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+/* sec-2 end */
+
+/* sec 3 starts */
+.row{
+    width: 1000px;
+    /* border: 2px solid red; */
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.img-or{
+    width: 100%;
+    height: 100%;
+}
+.row .row-1{
+    width: 40%;
+}
+.sec3-upper{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;  
+    margin-bottom: 10px;  
+
+}
+.sec3-upper h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec3-upper p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sec 3 ends */
